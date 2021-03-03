@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Fredoka+One&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +8,28 @@
 
 :root {
     --color-bg: #FEFAEC;
+    --color-bg-second: #dddacd;
     --color-light: #A9EEE6;
     --color-contrast: #F38181;
-    --color-dark: #625772; 
+    --color-dark: #625772;
+
+    
+    --font-headline: 'Fredoka One', cursive;
+    --font-text: 'Architects Daughter', cursive;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;;
+}
+
+p {
+    font-family: 'Architects Daughter', cursive;;
+}
+
+input {
+    font-family: 'Architects Daughter', cursive;;
+}
+
+::placeholder {
+    font-family: 'Architects Daughter', cursive;;
 }

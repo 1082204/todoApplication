@@ -1,4 +1,5 @@
 import * as React from 'react';
+import FilterTask from '../../components/FilterTask';
 import TaskInput from '../../components/TaskInput';
 import "./TaskListScene.scss";
 
@@ -24,7 +25,10 @@ class TaskListScene extends React.Component<Props, State> {
         return (
             <div className="task-list-wrapper">
                 <h1>Opgaveliste</h1>
-                <TaskInput />
+                <div className="searchbar-and-filter">
+                    <TaskInput />
+                    <FilterTask />
+                </div>
             </div>
         );
     }

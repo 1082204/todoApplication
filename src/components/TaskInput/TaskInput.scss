@@ -5,6 +5,7 @@
         background: var(--color-contrast);
         border-radius: 40px 0px 0px 0px;
         width: 30vw;
+        height: 10vh;
 
         .searchbar-content {
             display: flex;
@@ -12,6 +13,7 @@
             align-items: center;
             background: var(--color-bg);
             border-radius: 40px;
+            height: 5vh;
 
             input {
                 outline: none;
@@ -21,11 +23,12 @@
                 background: var(--color-bg);
                 padding-left: 0.5vw;
                 font-size: 1.2rem;
-                width: 100%;
+                height: 5vh;
             }
 
             input::placeholder {
                 font-size: 1.2rem;
+                height: 5vh;
             }
 
             button {
@@ -36,9 +39,10 @@
                 outline: none;
                 color: var(--color-dark);
                 text-align: right;
-                padding-right: 0.5vw;
+                padding-right: 0.3vw;
                 background: none;
                 cursor: pointer;
+                height: 5vh;
             }
         }
 
