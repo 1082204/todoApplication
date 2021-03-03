@@ -25,6 +25,7 @@ class FilterTask extends React.Component<Props, State> {
         return (
             <section className="filter-task-container">
                 <div className="dropdown-menu-wrapper">
+                    <p>Filtrér</p>
                     <FontAwesomeIcon icon={faSort} />
                 </div>
             </section>

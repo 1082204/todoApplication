@@ -1,6 +1,6 @@
 .filter-task-container {
     height: 10vh;
-    width: 7.5vw;
+    width: 10vw;
     margin-left: 1vw;
     background: var(--color-contrast);
     border-radius: 0px 40px 0px 0px;
@@ -10,7 +10,7 @@
 
     .dropdown-menu-wrapper {
         height: 5vh;
-        width: 5vw;
+        width: 7.5vw;
         background: var(--color-bg);
         display: flex;
         justify-content: center;
@@ -19,5 +19,12 @@
         border-radius: 40px;
         cursor: pointer;
         color: var(--color-dark);
+
+        p {
+            font-size: 1.2rem;
+            margin-right: 0.5vw;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
     }
 }
