@@ -28,4 +28,4 @@ class TaskItem extends React.Component<Props, State> {
     }
 }
 
-export default Item;
+export default TaskItem;

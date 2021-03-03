@@ -1,4 +1,5 @@
 import * as React from 'react';
+import TaskInput from '../../components/TaskInput';
 import "./TaskListScene.scss";
 
 
@@ -21,8 +22,9 @@ class TaskListScene extends React.Component<Props, State> {
 
     render() {
         return (
-            <div>
-
+            <div className="task-list-wrapper">
+                <h1>Opgaveliste</h1>
+                <TaskInput />
             </div>
         );
     }
