@@ -29,6 +29,7 @@ class TaskListScene extends React.Component<Props, State> {
                     <TaskInput />
                     <FilterTask />
                 </div>
+                
             </div>
         );
     }

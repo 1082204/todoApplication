@@ -2,7 +2,7 @@
     
     .searchbar-container {
         padding: 1.5rem;
-        background: var(--color-contrast);
+        background: var(--color-one);
         border-radius: 40px 0px 0px 0px;
         width: 30vw;
         height: 10vh;
@@ -11,7 +11,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: var(--color-bg);
+            background: var(--color-two);
             border-radius: 40px;
             height: 5vh;
 
@@ -24,6 +24,7 @@
                 padding-left: 0.5vw;
                 font-size: 1.2rem;
                 height: 5vh;
+                width: 100vw;
             }
 
             input::placeholder {
@@ -38,7 +39,7 @@
                 padding-top: 0.3vh;
                 font-size: 2rem;
                 outline: none;
-                color: var(--color-dark);
+                color: var(--color-four);
                 text-align: right;
                 padding-right: 0.3vw;
                 background: none;

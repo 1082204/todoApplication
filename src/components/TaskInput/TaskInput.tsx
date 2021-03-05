@@ -13,8 +13,6 @@ interface State {
 
 }
 
-
-
 class TaskInput extends React.Component<Props, State> {
     constructor(props: Props) {
         super(props);
@@ -36,3 +34,7 @@ class TaskInput extends React.Component<Props, State> {
 }
 
 export default TaskInput;
+
+function InputHTMLAttributes<T>() {
+    throw new Error('Function not implemented.');
+}

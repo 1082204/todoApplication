@@ -2,7 +2,7 @@
     height: 10vh;
     width: 10vw;
     margin-left: 1vw;
-    background: var(--color-contrast);
+    background: var(--color-one);
     border-radius: 0px 40px 0px 0px;
     display: flex;
     justify-content: center;
@@ -11,14 +11,14 @@
     .dropdown-menu-wrapper {
         height: 5vh;
         width: 7.5vw;
-        background: var(--color-bg);
+        background: var(--color-two);
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 1.5rem;
         border-radius: 40px;
         cursor: pointer;
-        color: var(--color-dark);
+        color: var(--color-four);
 
         p {
             font-size: 1.2rem;

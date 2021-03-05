@@ -5,15 +5,16 @@
     align-items: center;
 
     h1 {
+        margin-top: 3vh;
         margin-bottom: 5vh;
-        color: var(--color-dark);
+        color: var(--color-four);
         font-size: 3rem;
         
     }
 
     .searchbar-and-filter {
         display: flex;
-        background: var(--color-bg-second);
+        background: var(--color-three);
         border-radius: 40px;
     }
 }
